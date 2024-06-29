@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'ansible --version'
+                sh 'echo $USER'
             }
         }
     }
